@@ -1,0 +1,15 @@
+/* Your tabs CSS code here */
+.tabs {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.tabs a {
+  color: grey;
+}
+
+.tab-active {
+  border-bottom: 3px solid grey;
+}

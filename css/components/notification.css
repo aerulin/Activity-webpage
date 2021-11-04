@@ -1,0 +1,38 @@
+.notification {
+  display: flex;
+  background-color: white;
+  height: 100px;
+  margin: 2px;
+  color: grey;
+}
+
+.notification-content {
+  flex-grow: 1;
+  align-self: center;
+}
+
+.notification-content p {
+  margin: 3px;
+}
+
+.notification-content p a {
+  flex-grow: 1;
+  align-self: center;
+  color: rgb(152, 0, 0)
+}
+
+.notification a {
+  color: rgb(180, 180, 180);
+  text-decoration: none;
+}
+
+.notification-action {
+  align-self: center;
+  padding: 10px;
+  opacity: 0;
+  transition: ease 0.3s;
+}
+
+.notification:hover .notification-action{
+  opacity: 1;
+}
